@@ -16,7 +16,7 @@ We will set up an Express server with a single route `token/:id` where `id` is m
 
 Our route will return an HTML template that runs our script. The token Id in the params will be used as the seed of the artwork, ensuring each time the endpoint is called we get the same initial state (therefore making the NFTs both unique and consistent). To add interactivity to the piece, each time the user clicks on the canvas the dots will be "scared away" and move outwards from the cursor, while at the same time changing the initial seed phrase, altering colors and motion.
 
-![[ezgif-2-21dfb7eff0.gif]]
+![GIF demo](/demo.gif)
 
 ## Run the project 
 ```javascript
