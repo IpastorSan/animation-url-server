@@ -27,3 +27,15 @@ npm run dev
 ```
 
 The application will run on port 8080 you can use any url like http://localhost:8080/token/<TOKEN_ID> to see the rendered program.
+
+## Include the deployed URL in your Metadata
+
+To include your project in your NFT Metadata, you will need to include both a static image url in the `image` field (from IPFS or any other storage provider) and your deployed server's URL in the `animation_url` field.
+
+```json
+{
+  "name": "Dynamic Sound Artwork #1",
+  "image": "ipfs://QmYDvPAXtiJg7s8JdRBeLWd4SphQdrc8j1YuQNNxcGE1hg/1.png",
+  "animation_url": "https://your-deployed-application/token/1"
+}
+  ```
